@@ -1,0 +1,19 @@
+/*Estilos globais*/
+
+html{
+    height: 100%;
+}
+body{
+    background-color:#1C0C3F;
+    font-family: sans-serif;
+    color: white;
+    margin: 0px;
+}
+.cover-container > figure > img{
+    width: 40%;
+    
+}
+
+iframe{
+    width: 90%;
+}
