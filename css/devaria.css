@@ -9,11 +9,29 @@ body{
     color: white;
     margin: 0px;
 }
-.cover-container > figure > img{
-    width: 40%;
-    
-}
+
 
 iframe{
     width: 90%;
+}
+.title{
+    padding: 0 20px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    
+}
+h1.title{
+    margin: 40px auto 20px;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-center{
+    text-align: center;
+}
+  
+@media screen and (min-width: 992px){
+    .width-50pct-desktop{
+        width: 50% !important; 
+    }
 }
