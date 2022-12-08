@@ -12,8 +12,11 @@ px
     font-size: 1.5em;
 }
 
-@media screen and(min-width: 992px ) {
- main .content-container article  p  {
+@media screen and (min-width: 992px){
+    .width-50pct-desktop{
+        width: 50% !important; 
+    }
+    p.width-50pct-desktop{
         margin: 0 auto 10px;
     }
 }
